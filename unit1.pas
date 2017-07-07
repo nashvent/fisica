@@ -43,10 +43,12 @@ type
     procedure Timer1Timer(Sender: TObject);
     function funcion(x: Integer):Integer;
     function funcionDouble(x: Double):Double;
+
   private
     { private declarations }
   public
     valor : Double;
+    vi,vf,a,t,d:Double;
     { public declarations }
   end;
 
@@ -98,6 +100,11 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
+  vi:=0;
+  vf:=0;
+  a:=0;
+  t:=0;
+  d:=0;
   valor:=0;
 end;
 

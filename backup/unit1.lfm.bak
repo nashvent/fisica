@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 290
-  Height = 627
-  Top = 23
-  Width = 1014
+  Left = 407
+  Height = 471
+  Top = 118
+  Width = 903
   Caption = 'Form1'
-  ClientHeight = 627
-  ClientWidth = 1014
+  ClientHeight = 0
+  ClientWidth = 0
   OnCreate = FormCreate
   LCLVersion = '1.6.4.0'
   object PageControl1: TPageControl
@@ -11767,7 +11767,7 @@ object Form1: TForm1
           Height = 33
           Top = 8
           Width = 115
-          Caption = 'Button1'
+          Caption = 'Resolver'
           OnClick = Button1Click
           TabOrder = 5
         end
@@ -11820,6 +11820,7 @@ object Form1: TForm1
     end
   end
   object Timer1: TTimer
+    Enabled = False
     Interval = 1
     OnTimer = Timer1Timer
     left = 256
