@@ -198,7 +198,7 @@ end;
 
 procedure TForm1.aceleracion();
 begin
-  a:=abs(vf-vi)/t;
+  a:=vf-vi/t;
 
   AceleracionLabel.Caption:=FloatToStr(a)+' m/s^2';
   grafica3(a);
