@@ -107,10 +107,18 @@ begin
 
 
   aceleracion();
-
-  Image1.Left:=Image1.Left+x;
-  if  Image1.Left >= Shape1.Width then
-      Image1.Left:=48;
+  if vi<vf then
+  begin
+    Image1.Left:=Image1.Left+x;
+    if  Image1.Left >= Shape1.Width then
+        Image1.Left:=48;
+  end
+  else
+  begin
+    Image1.Left:=Image1.Left-x;
+    if  Image1.Left <= 48 then
+        Image1.Left:=Shape1.Width;
+  end;
 
    {
     {Chart1LineSeries1.AddXY(valor,funcionDouble(valor));
@@ -215,6 +223,12 @@ begin
   distancia();
   d:=(vi*t)+(0.5*a*power(t,2));
   Label18.Caption:='d='+FloatToStr(d)+'m';
+  if vf<vi then
+  begin
+      Label17.Caption:='d='+FloatToStr(d)+'m';
+      Label18.Caption:='d=0m';
+  end;
+
 end;
 
 end.
