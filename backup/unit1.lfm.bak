@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 327
+  Left = 131
   Height = 630
-  Top = 81
+  Top = 47
   Width = 1200
   Caption = 'Form1'
   ClientHeight = 630
@@ -11849,6 +11849,7 @@ object Form1: TForm1
           'TAChart'
         )
         object Chart2LineSeries1: TLineSeries
+          LinePen.Color = clBlue
         end
       end
       object Label11: TLabel
@@ -11916,6 +11917,7 @@ object Form1: TForm1
           'TAChart'
         )
         object Chart3LineSeries1: TLineSeries
+          LinePen.Color = clLime
         end
       end
       object Label14: TLabel
