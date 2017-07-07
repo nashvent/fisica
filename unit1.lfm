@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 64
+  Left = 327
   Height = 630
-  Top = 36
+  Top = 81
   Width = 1200
   Caption = 'Form1'
   ClientHeight = 630
@@ -11623,13 +11623,13 @@ object Form1: TForm1
         Left = 104
         Height = 25
         Top = 216
-        Width = 889
+        Width = 929
         Brush.Color = clGrayText
       end
       object Label2: TLabel
-        Left = 192
+        Left = 272
         Height = 32
-        Top = 16
+        Top = 8
         Width = 622
         Caption = 'Movimiento Rectilíneo Uniformemente Variado '
         Font.CharSet = ANSI_CHARSET
@@ -11644,12 +11644,12 @@ object Form1: TForm1
       end
       object GroupBox1: TGroupBox
         Left = 16
-        Height = 73
+        Height = 65
         Top = 56
-        Width = 1016
+        Width = 1128
         Caption = 'Datos '
-        ClientHeight = 53
-        ClientWidth = 1012
+        ClientHeight = 45
+        ClientWidth = 1124
         TabOrder = 1
         object Label3: TLabel
           Left = 136
@@ -11674,16 +11674,16 @@ object Form1: TForm1
           Text = '0'
         end
         object Edit2: TEdit
-          Left = 272
+          Left = 304
           Height = 23
-          Top = 11
+          Top = 8
           Width = 80
           OnChange = Edit2Change
           TabOrder = 1
           Text = '0'
         end
         object Label4: TLabel
-          Left = 248
+          Left = 272
           Height = 20
           Top = 8
           Width = 16
@@ -11697,17 +11697,17 @@ object Form1: TForm1
           ParentFont = False
         end
         object Edit3: TEdit
-          Left = 400
+          Left = 440
           Height = 23
-          Top = 11
+          Top = 8
           Width = 80
           TabOrder = 2
           Text = '0'
         end
         object Label5: TLabel
-          Left = 376
+          Left = 416
           Height = 20
-          Top = 11
+          Top = 8
           Width = 11
           Caption = 'a:'
           Font.CharSet = ANSI_CHARSET
@@ -11719,17 +11719,17 @@ object Form1: TForm1
           ParentFont = False
         end
         object Edit4: TEdit
-          Left = 568
+          Left = 608
           Height = 23
-          Top = 11
+          Top = 8
           Width = 80
           TabOrder = 3
           Text = '0'
         end
         object Label6: TLabel
-          Left = 520
+          Left = 560
           Height = 20
-          Top = 11
+          Top = 8
           Width = 7
           Caption = 't:'
           Font.CharSet = ANSI_CHARSET
@@ -11741,9 +11741,9 @@ object Form1: TForm1
           ParentFont = False
         end
         object Edit5: TEdit
-          Left = 736
+          Left = 776
           Height = 23
-          Top = 11
+          Top = 8
           Width = 80
           ParentShowHint = False
           TabOrder = 4
@@ -11751,9 +11751,9 @@ object Form1: TForm1
           Visible = False
         end
         object Label7: TLabel
-          Left = 688
+          Left = 728
           Height = 20
-          Top = 11
+          Top = 8
           Width = 12
           Caption = 'd:'
           Font.CharSet = ANSI_CHARSET
@@ -11765,9 +11765,9 @@ object Form1: TForm1
           ParentFont = False
         end
         object Button1: TButton
-          Left = 840
+          Left = 944
           Height = 33
-          Top = 8
+          Top = 0
           Width = 115
           Caption = 'Resolver'
           OnClick = Button1Click
@@ -11849,6 +11849,7 @@ object Form1: TForm1
           'TAChart'
         )
         object Chart2LineSeries1: TLineSeries
+          LinePen.Color = clBlue
         end
       end
       object Label11: TLabel
@@ -11916,6 +11917,7 @@ object Form1: TForm1
           'TAChart'
         )
         object Chart3LineSeries1: TLineSeries
+          LinePen.Color = clLime
         end
       end
       object Label14: TLabel
@@ -11979,6 +11981,34 @@ object Form1: TForm1
         Width = 49
         Caption = '0 m/s'
         Font.Height = -20
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label17: TLabel
+        Left = 128
+        Height = 20
+        Top = 248
+        Width = 23
+        Caption = 'd=0'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label18: TLabel
+        Left = 968
+        Height = 20
+        Top = 248
+        Width = 23
+        Caption = 'd=0'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
         ParentColor = False
         ParentFont = False
       end

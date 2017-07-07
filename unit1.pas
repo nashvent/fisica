@@ -37,6 +37,8 @@ type
     Label15: TLabel;
     Label16: TLabel;
     AceleracionLabel: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
@@ -130,8 +132,15 @@ begin
   a:=StrToFloat(Edit3.Text);
   t:=StrToFloat(Edit4.Text);
   d:=StrToFloat(Edit5.Text);
+  Chart1LineSeries1.Clear;
+  Chart2LineSeries1.Clear;
+  Chart3LineSeries1.Clear;
+  t_grafica:=0;
+  v_grafica:=0;
+
   t_grafica:=t_grafica+t;
   v_grafica:=v_grafica+vf;
+
   {for i:=0 to n do begin
       Chart1LineSeries1.AddXY(i,funcion(i));
   end; }
@@ -166,6 +175,7 @@ begin
   ComboBox1.Items.Add('distancia');
   ComboBox1.Items.Add('vo');
   ComboBox1.Items.Add('aceleracion');
+
 
 end;
 
@@ -203,6 +213,8 @@ begin
   AceleracionLabel.Caption:=FloatToStr(a)+' m/s^2';
   grafica3(a);
   distancia();
+  d:=(vi*t)+(0.5*a*power(t,2));
+  Label18.Caption:='d='+FloatToStr(d)+'m';
 end;
 
 end.
