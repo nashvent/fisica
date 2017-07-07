@@ -1,25 +1,25 @@
 object Form1: TForm1
-  Left = 153
+  Left = 64
   Height = 630
-  Top = 23
-  Width = 1158
+  Top = 36
+  Width = 1200
   Caption = 'Form1'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientHeight = 630
+  ClientWidth = 1200
   OnCreate = FormCreate
   LCLVersion = '1.6.4.0'
   object PageControl1: TPageControl
     Left = 8
     Height = 680
     Top = 8
-    Width = 1136
+    Width = 1176
     ActivePage = TabSheet1
     TabIndex = 0
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = 'MRUV'
       ClientHeight = 652
-      ClientWidth = 1128
+      ClientWidth = 1168
       object Image1: TImage
         Left = 104
         Height = 64
@@ -11595,7 +11595,7 @@ object Form1: TForm1
         Stretch = True
       end
       object Chart1: TChart
-        Left = 30
+        Left = 48
         Height = 232
         Top = 334
         Width = 314
@@ -11788,8 +11788,8 @@ object Form1: TForm1
         Left = 16
         Height = 20
         Top = 428
-        Width = 7
-        Caption = 'T'
+        Width = 27
+        Caption = 'd(m)'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -16
         Font.Name = 'Arial Narrow'
@@ -11802,8 +11802,8 @@ object Form1: TForm1
         Left = 173
         Height = 20
         Top = 566
-        Width = 61
-        Caption = 'Velocidad'
+        Width = 68
+        Caption = 'Tiempo( s )'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -16
         Font.Name = 'Arial Narrow'
@@ -11828,7 +11828,7 @@ object Form1: TForm1
         OnClick = Label10Click
       end
       object Chart2: TChart
-        Left = 398
+        Left = 416
         Height = 232
         Top = 334
         Width = 314
@@ -11855,8 +11855,8 @@ object Form1: TForm1
         Left = 541
         Height = 20
         Top = 566
-        Width = 61
-        Caption = 'Velocidad'
+        Width = 68
+        Caption = 'Tiempo( s )'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -16
         Font.Name = 'Arial Narrow'
@@ -11884,8 +11884,8 @@ object Form1: TForm1
         Left = 384
         Height = 20
         Top = 428
-        Width = 7
-        Caption = 'T'
+        Width = 37
+        Caption = 'v(m/s)'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -16
         Font.Name = 'Arial Narrow'
@@ -11895,7 +11895,7 @@ object Form1: TForm1
         ParentFont = False
       end
       object Chart3: TChart
-        Left = 758
+        Left = 816
         Height = 232
         Top = 334
         Width = 314
@@ -11922,8 +11922,8 @@ object Form1: TForm1
         Left = 901
         Height = 20
         Top = 566
-        Width = 61
-        Caption = 'Velocidad'
+        Width = 68
+        Caption = 'Tiempo( s )'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -16
         Font.Name = 'Arial Narrow'
@@ -11933,7 +11933,7 @@ object Form1: TForm1
         ParentFont = False
       end
       object Label15: TLabel
-        Left = 865
+        Left = 928
         Height = 20
         Top = 312
         Width = 124
@@ -11951,8 +11951,8 @@ object Form1: TForm1
         Left = 744
         Height = 20
         Top = 428
-        Width = 7
-        Caption = 'T'
+        Width = 52
+        Caption = 'A(m/s^2)'
         Font.CharSet = ANSI_CHARSET
         Font.Height = -16
         Font.Name = 'Arial Narrow'
@@ -11991,7 +11991,7 @@ object Form1: TForm1
     Enabled = False
     Interval = 1
     OnTimer = Timer1Timer
-    left = 256
-    top = 176
+    left = 48
+    top = 184
   end
 end

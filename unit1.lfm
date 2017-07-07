@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 58
+  Left = 64
   Height = 630
-  Top = 23
+  Top = 36
   Width = 1200
   Caption = 'Form1'
   ClientHeight = 630
@@ -11991,7 +11991,7 @@ object Form1: TForm1
     Enabled = False
     Interval = 1
     OnTimer = Timer1Timer
-    left = 256
-    top = 176
+    left = 48
+    top = 184
   end
 end
