@@ -16,6 +16,10 @@ type
     Button1: TButton;
     Chart1: TChart;
     Chart1LineSeries1: TLineSeries;
+    Chart2: TChart;
+    Chart2LineSeries1: TLineSeries;
+    Chart3: TChart;
+    Chart3LineSeries1: TLineSeries;
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
@@ -24,6 +28,12 @@ type
     GroupBox1: TGroupBox;
     Image1: TImage;
     Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
@@ -40,6 +50,7 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Edit2Change(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure Label10Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     function funcion(x: Integer):Integer;
     function funcionDouble(x: Double):Double;
@@ -78,8 +89,19 @@ begin
   if  Image1.Left >= Shape1.Width then
       Image1.Left:=48;
 
-  Chart1LineSeries1.AddXY(valor,funcionDouble(valor));
-  valor:=valor+1;
+  ////   grafica(int x,int y){
+      ///Chart1LineSeries1.AddXY(x,y);
+      ////
+  ///ACA SETEAMOS VALORES
+   ///X , Y;
+  {Chart1LineSeries1.AddXY(valor,funcionDouble(valor));
+  valor:=valor+1;}
+  //Grafica 1 Y:Vel(m/s) - X:t(s)
+  //// grafica1(x,y);
+  //Grafica 2 Y:Posicion(m) - X:t(s)
+  //// grafica2(x.y);
+  //Grafica 3 Y:Aceleracion(m/s^2) - X:t(s)
+  //// grafica3(x,y);
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
@@ -106,6 +128,11 @@ begin
   t:=0;
   d:=0;
   valor:=0;
+end;
+
+procedure TForm1.Label10Click(Sender: TObject);
+begin
+
 end;
 
 end.
